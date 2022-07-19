@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------- Nav Section CSS Start -------*/
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.left-side-nav>h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.right-side-nav > a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+/* -------Hero Section Start--------- */
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-text>h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+.left-side-text> p{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+
+.right-side-img{
+    background-image: url(images/Circle\ design.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.right-side-img img{
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 41px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    background-color: #E02C6D;
+}
+
+/* -------Logo Container Start -------- */
+
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+    border-top: 0.5px solid gainsboro;
+    border-bottom: 0.5px solid gainsboro;
+    padding: 30px 0;
+}
+
+/*--------------------- Popular Section ------------*/
+
+.popular-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.popular-container{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.item{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 7px 40px rgb(182, 179, 179);
+}
+
+.item img{
+    width: 100%;
+}
+
+.item>h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+.item>h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rating{
+    display: flex;
+}
+
+.rating>.fa-solid{
+    color: gold;
+    font-size:24px;
+    margin-right: 12px;
+}
+span{
+    font-size: 24px;
+}
+
+.para{
+    font-size: 18px;
+    
+}
+
+/*---------------- Feautre Section Start------------ */
+
+.feature-conatiner{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 70px;
+}
+
+.feature-text >h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-text, .feature-para{
+    font-size: 16px;
+    padding: 30px 0;
+    color: black;
+}
+
+/* -------footer section start----- */
+
+.footer {
+	padding: 70px;
+	height: 150px;
+	background-color: #0A0826;
+}
+
+.footer{
+    text-align: center;
+}
+
+.descriontion >h1{
+    color: white;
+}
+
+.des-para{
+    color: white;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo>div{
+    margin-top: 20px;
+    color: white;
+    padding: 10px 10px;
+    background-color: gray;
+    border-radius: 50%;
+}
