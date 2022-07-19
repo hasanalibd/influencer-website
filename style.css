@@ -43,10 +43,11 @@ body{
     align-items: center;
 }
 
-.left-side-text>h1{
-    font-size: 52px;
-    font-weight: 700;
+.left-side-text > h1 {
+	font-size: 3rem;
+	font-weight: 700;
 }
+
 .left-side-text> p{
     font-size: 16px;
     font-weight: 600;
@@ -61,7 +62,8 @@ body{
 }
 
 .right-side-img img{
-    width: 100%;
+    width: 440px;
+    height: 414px;
 }
 
 .btn{
@@ -195,3 +197,6 @@ span{
     background-color: gray;
     border-radius: 50%;
 }
+
+/* Media Query */
+
